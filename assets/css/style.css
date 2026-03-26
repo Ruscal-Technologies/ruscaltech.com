@@ -151,13 +151,6 @@ nav {
   text-align: center;
 }
 
-.hero-logo {
-  width: 108px;
-  height: 108px;
-  border-radius: 18px;
-  margin: 0 auto 28px;
-}
-
 .hero-eyebrow {
   display: inline-block;
   font-size: .72rem;
