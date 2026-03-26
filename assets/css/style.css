@@ -80,6 +80,9 @@ nav {
 }
 
 .nav-logo {
+  display: flex;
+  align-items: center;
+  gap: 10px;
   font-size: 1.05rem;
   font-weight: 600;
   color: #fff;
@@ -87,6 +90,13 @@ nav {
   transition: opacity .15s;
 }
 .nav-logo:hover { color: #fff; opacity: .8; }
+
+.nav-logo-img {
+  width: 34px;
+  height: 34px;
+  border-radius: 6px;
+  flex-shrink: 0;
+}
 
 .nav-links {
   display: flex;
@@ -139,6 +149,13 @@ nav {
   background: linear-gradient(155deg, var(--navy) 0%, var(--navy-dark) 100%);
   padding: calc(var(--nav-h) + 88px) 24px 100px;
   text-align: center;
+}
+
+.hero-logo {
+  width: 108px;
+  height: 108px;
+  border-radius: 18px;
+  margin: 0 auto 28px;
 }
 
 .hero-eyebrow {
